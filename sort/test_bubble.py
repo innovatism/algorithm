@@ -11,5 +11,5 @@ def test_bubble():
 def test_bubble_integer():
     _input = [5, 4, 6, 0, 1, 2]
     _output = [0, 1, 2, 4, 5, 6]
-    assert bubble_sort_integer(_input) == list_to_array(_output)
+    assert bubble_sort_integer(_input) == _output
 # %%
