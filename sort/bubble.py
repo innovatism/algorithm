@@ -32,10 +32,9 @@ def one_pass_verbose(a_list):
     return a_list
 
 def bubble_sort_integer(a_list):
-    a_array = list_to_array(a_list)
-    for i in range(len(a_array)):
-        a_array[i:] = one_pass(a_array[i:])
-    return  a_array
+    for i in range(len(a_list)):
+        a_list[i:] = one_pass(a_list[i:])
+    return  a_list
 
 def bubble_sort_verbose(a_list):
     a_array = list_to_array(a_list)
