@@ -1,4 +1,5 @@
 # %%
+from .common.utils import swap
 def insertion_sort(a_list):
     for i in range(len(a_list) - 1):
         cursor = i + 1
@@ -14,8 +15,6 @@ def insertion_sort(a_list):
             
     return a_list
 
-def swap(a_list, i, j):
-    a_list[i], a_list[j] = a_list[j], a_list[i]
 
 
 
